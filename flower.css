@@ -1,0 +1,65 @@
+
+body {
+    background: #131b21;
+    overflow-y: scroll;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+   
+  }
+  
+  svg#flower-frame {
+    height: 90vh;
+    width: 100%;
+  }
+  
+  #Footer_group_1_,
+  [id^="PinkFlowerGroup"],
+  [id^="BaseGroup"] path,
+  [id^="LeafGroup"] path,
+  path[id^="Stroke"],
+  g[id^="BudGroup"] g[id^="BudGroup"] g[id^="Bud"],
+  #Bud8_1_,
+  #Bud10_1_,
+  #Bud23_1_,
+  #Bud26_1_,
+  [id^="Dots"],
+  [id^="Flourish"] {
+    visibility: hidden;
+    overflow-y: scroll;
+  }
+
+
+  .st5 {
+    fill: #ffef08!important;
+}
+
+.st9{
+    fill: black !important;
+}
+
+
+.st8 {
+    fill: #ffda06!important;
+}
+
+.Ferchis{
+    color: mediumorchid;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+    /* right:50%; */
+
+}
+.mif{
+    position: absolute;
+    top: 30%;    
+    width: 30%;
+    left: 35%;
+    border-radius: 20px;
+}
